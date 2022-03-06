@@ -1,0 +1,41 @@
+    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    /* left section styling */
+    
+    .left_section {
+        background-color: #B1D9DB;
+    }
+    
+    .main_title {
+        font-family: 'Fredoka', sans-serif;
+        width: 20rem;
+    }
+    
+    .direct_login {
+        background-color: aqua;
+    }
+    
+    .make_account h3 {
+        font-size: xx-large;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .account_login {
+        height: 2.5rem;
+        width: 11rem;
+        background-color: transparent;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    
+    .account_login i {
+        font-size: 1.5rem;
+        padding-right: 3px;
+    }
+    
+    .breaker {
+        text-align: center;
+    }
