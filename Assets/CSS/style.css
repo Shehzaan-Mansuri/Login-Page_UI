@@ -3,39 +3,99 @@
         margin: 0;
         padding: 0;
     }
+    
+    body {
+        background-color: black;
+    }
+    
+    main {
+        display: flex;
+        jus
+    }
     /* left section styling */
     
     .left_section {
         background-color: #B1D9DB;
+        width: auto;
+        height: 100vh;
     }
     
     .main_title {
         font-family: 'Fredoka', sans-serif;
         width: 20rem;
     }
+    /* second section */
     
-    .direct_login {
-        background-color: aqua;
+    .right_section {
+        float: right;
+        background-color: white;
+        border-radius: 4.5rem 0 0 4.5rem;
+        width: 100vw;
     }
     
     .make_account h3 {
         font-size: xx-large;
         font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .language {
+        float: right;
+    }
+    
+    .signin {
+        display: flex;
+        justify-content: center;
     }
     
     .account_login {
-        height: 2.5rem;
-        width: 11rem;
         background-color: transparent;
-        font-size: 0.8rem;
-        text-align: center;
+        width: 12rem;
+        height: 3rem;
+        margin: 15px;
+        border-radius: 0.5rem;
+        display: flex;
+        justify-items: center;
+        align-items: center;
     }
     
     .account_login i {
         font-size: 1.5rem;
-        padding-right: 3px;
+        margin: 5px;
     }
     
     .breaker {
+        margin: auto;
         text-align: center;
+        margin-bottom: 1rem;
+    }
+    
+    .main_form input {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+    }
+    
+    .form_data {
+        width: 60%;
+        height: 2.5rem;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+    
+    .create_button {
+        width: 50%;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+    }
+    
+    .already_account {
+        text-align: center;
+        margin-top: 2rem;
     }
