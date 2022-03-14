@@ -1,101 +1,150 @@
-    @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    
-    body {
-        background-color: black;
-    }
-    
-    main {
-        display: flex;
-        jus
-    }
-    /* left section styling */
-    
-    .left_section {
-        background-color: #B1D9DB;
-        width: auto;
-        height: 100vh;
-    }
-    
-    .main_title {
-        font-family: 'Fredoka', sans-serif;
-        width: 20rem;
-    }
-    /* second section */
-    
-    .right_section {
-        float: right;
-        background-color: white;
-        border-radius: 4.5rem 0 0 4.5rem;
-        width: 100vw;
-    }
-    
-    .make_account h3 {
-        font-size: xx-large;
-        font-family: Arial, Helvetica, sans-serif;
-        width: 100%;
-        text-align: center;
-    }
-    
-    .language {
-        float: right;
-    }
-    
-    .signin {
-        display: flex;
-        justify-content: center;
-    }
-    
-    .account_login {
-        background-color: transparent;
-        width: 12rem;
-        height: 3rem;
-        margin: 15px;
-        border-radius: 0.5rem;
-        display: flex;
-        justify-items: center;
-        align-items: center;
-    }
-    
-    .account_login i {
-        font-size: 1.5rem;
-        margin: 5px;
-    }
-    
-    .breaker {
-        margin: auto;
-        text-align: center;
-        margin-bottom: 1rem;
-    }
-    
-    .main_form input {
-        display: flex;
-        flex-direction: row;
-        margin: auto;
-    }
-    
-    .form_data {
-        width: 60%;
-        height: 2.5rem;
-        border: none;
-        border-bottom: 1px solid black;
-    }
-    
-    .create_button {
-        width: 50%;
-        height: 3rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 2rem;
-    }
-    
-    .already_account {
-        text-align: center;
-        margin-top: 2rem;
-    }
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: #B1D9DB;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .left_div h1 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: black;
+            padding: 1.8rem;
+        }
+        
+        section {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        .main_title {
+            font-family: 'Fredoka', sans-serif;
+            width: 20rem;
+            padding-left: 1.5rem;
+        }
+        
+        .left_main_img {
+            width: 40rem;
+            position: relative;
+            top: 2.5rem;
+            left: 15rem;
+        }
+        
+        .right_div {
+            background-color: white;
+            border-radius: 1.5rem 0 0 1.5rem;
+            width: 60%;
+            height: 100vh;
+        }
+        
+        .option_language {
+            float: right;
+            padding: 1.5rem;
+        }
+        
+        .option_language i:hover .language_selector {
+            display: block;
+        }
+        
+        .language_selector ul {
+            display: none;
+            list-style: none;
+            list-style-type: none;
+            padding: 15px 10px 0 7px;
+        }
+        
+        .language_selector ul li {
+            padding: 2.5px;
+        }
+        
+        .make_account h3 {
+            font-size: 3rem;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 1.5rem 0 1.5rem 0;
+            margin-left: 3rem;
+        }
+        
+        .direct_login {
+            padding-top: 7rem;
+            padding-left: 7rem;
+        }
+        
+        .signin {
+            flex-direction: row;
+            display: flex;
+        }
+        
+        .account_login {
+            width: 12rem;
+            height: 2.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 0.5rem;
+            margin-bottom: 1.5rem;
+            background-color: transparent;
+            border-radius: 0.5rem;
+            border-color: rgba(173, 168, 168, 0.589);
+            margin-left: 3rem;
+            cursor: pointer;
+        }
+        
+        .account_login:hover {
+            background-color: #2cbac2;
+            color: white;
+            border: none;
+        }
+        
+        .account_login i {
+            font-size: 1.5rem;
+            padding-right: 1rem;
+            color: rgb(46, 209, 238);
+        }
+        
+        .breaker {
+            padding: 0.5rem 0 0 15rem;
+        }
+        
+        .main_form {
+            display: flex;
+            flex-direction: column;
+            padding-left: 5rem;
+        }
+        
+        .main_form input {
+            border: none;
+            border-bottom: 1px solid black;
+            margin: 1.5rem;
+            width: 40%;
+            height: 2rem;
+            margin-left: 5rem;
+        }
+        
+        .create_button {
+            width: 35%;
+            margin: 1.5rem;
+            height: 2.5rem;
+            background-color: #2cbac2;
+            font-weight: bolder;
+            margin-left: 11rem;
+            border-radius: 00.5rem;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+        
+        .already_account {
+            font-size: 1rem;
+            margin-left: 17rem;
+            padding-top: 1rem;
+        }
+        
+        .login_account {
+            color: #2cbac2;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 1.5px;
+        }
