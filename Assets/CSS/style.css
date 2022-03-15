@@ -44,21 +44,32 @@
         .option_language {
             float: right;
             padding: 1.5rem;
+            cursor: pointer;
         }
         
-        .option_language i:hover .language_selector {
+        .option_language:hover ul {
             display: block;
+            cursor: pointer;
         }
         
-        .language_selector ul {
+        .right_div ul {
             display: none;
             list-style: none;
             list-style-type: none;
-            padding: 15px 10px 0 7px;
+            margin-top: 10px;
+            padding: 7px 7px 7px 7px;
+            background-color: #d6e0e0;
+            vertical-align: middle;
+            border-radius: 10px;
         }
         
-        .language_selector ul li {
+        .right_div ul li {
             padding: 2.5px;
+        }
+        
+        .right_div ul li:hover {
+            color: cadetblue;
+            background-color: #d6e0e0;
         }
         
         .make_account h3 {
